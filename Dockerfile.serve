@@ -1,0 +1,21 @@
+#
+# Minimal docker image to host the push.kiwi server
+#
+FROM alpine:3.5
+
+EXPOSE 80
+
+# Install bash
+#RUN apk add --update bash && rm -rf /var/cache/apk/*
+
+# Copy the binary file
+COPY bin/push.kiwi /usr/bin
+
+#CMD ["bash"]
+# Start the push.kiwi server with environment variables
+CMD ["/bin/sh", "-c", "push.kiwi \
+        --root-url $ROOT_URL \
+        --mailgun-domain ${MAILGUN_DOMAIN} \
+        --mailgun-key $MAILGUN_KEY \
+        --mailgun-public-key $MAILGUN_PUBLIC_KEY \
+"]

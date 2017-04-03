@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+  app:
+      build: .
+      command: serve
+      ports:
+        - 8080:8080
+        - 443:443
+      volumes:
+        - ./src:/go/src/github.com/lukin0110/push.kiwi
+        - ./bin:/go/bin
+        - ./storage:/storage
+        - ./ssl/push_kiwi.crt:/ssl/push_kiwi.crt
+        - ./ssl/push_kiwi.key:/ssl/push_kiwi.key
+      env_file: .env
+
+  serve:
+    build:
+      context: .
+      dockerfile: Dockerfile.serve
+    ports:
+        - 8080:8080
+    volumes:
+        - ./storage:/storage
+    env_file: .env

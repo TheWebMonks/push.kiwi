@@ -1,0 +1,118 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "KEsnSzf6BKdkmOhbig7D5Azih1A=",
+			"path": "github.com/asaskevich/govalidator",
+			"revision": "7b3beb6df3c42abd3509abfc3bcacc0fbfb7c877",
+			"revisionTime": "2016-10-01T16:31:30Z",
+			"version": "v5",
+			"versionExact": "v5"
+		},
+		{
+			"checksumSHA1": "cXZVymYfjlT4nwMymGuPCL6hw5Q=",
+			"path": "github.com/docker/go-units",
+			"revision": "f2d77a61e3c169b43402a0a1e84f06daf29b8190",
+			"revisionTime": "2016-06-13T21:20:13Z",
+			"version": "v0.3.1",
+			"versionExact": "v0.3.1"
+		},
+		{
+			"checksumSHA1": "Thg9sicXr23/02y0VqmmJoEZIzI=",
+			"path": "github.com/gorilla/context",
+			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+			"revisionTime": "2016-08-17T18:46:32Z"
+		},
+		{
+			"checksumSHA1": "fp6E0ZiR3ZdXdYR+wnM+0ihVn/4=",
+			"path": "github.com/gorilla/mux",
+			"revision": "0eeaf8392f5b04950925b8a69fe70f110fa7cbfc",
+			"revisionTime": "2016-03-17T21:34:30Z",
+			"version": "v1.1",
+			"versionExact": "v1.1"
+		},
+		{
+			"checksumSHA1": "zh/ehY26Q/vTfrgA55ZYVXMyHGA=",
+			"path": "github.com/mailgun/mailgun-go",
+			"revision": "369a1fa57ce6fb314e627087b9fff0db5c266c0f",
+			"revisionTime": "2016-08-25T14:42:04Z",
+			"version": "v1.0.2",
+			"versionExact": "v1.0.2"
+		},
+		{
+			"checksumSHA1": "xV6r9iFa0sdUeuKiY+/LUFQ0SDM=",
+			"path": "github.com/robfig/cron",
+			"revision": "67823cd24dece1b04cced3a0a0b3ca2bc84d875e",
+			"revisionTime": "2014-11-23T18:28:03Z",
+			"version": "v1",
+			"versionExact": "v1"
+		},
+		{
+			"checksumSHA1": "fFnEuPOdBRf9AdTSpAFkd0ZPXXs=",
+			"path": "golang.org/x/crypto/cast5",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "dS92E6V//Jo7eHs2aD6w4pdFgE0=",
+			"path": "golang.org/x/crypto/openpgp",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "hv904NllALnNTsusVaaV8mvpMWU=",
+			"path": "golang.org/x/crypto/openpgp/armor",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "uWrWNV8Einsfmhf0T6d3wAzapwI=",
+			"path": "golang.org/x/crypto/openpgp/elgamal",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "rlxVSaGgqdAgwblsErxTxIfuGfg=",
+			"path": "golang.org/x/crypto/openpgp/errors",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "Ofe+w6eT6J4uear+deDGKFTlxJ4=",
+			"path": "golang.org/x/crypto/openpgp/packet",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "PwdkQ+WNRYvsBJ2ls0NIOEBHp1g=",
+			"path": "golang.org/x/crypto/openpgp/s2k",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "EgQZuRyaRp6ZlLNpVaKP22e97BY=",
+			"path": "golang.org/x/crypto/ripemd160",
+			"revision": "9477e0b78b9ac3d0b03822fd95422e2fe07627cd",
+			"revisionTime": "2016-10-31T15:37:30Z"
+		},
+		{
+			"checksumSHA1": "dcOJtT2YpM6/qNQUa+IGGjFUy0k=",
+			"path": "golang.org/x/net/html",
+			"revision": "9ef22118a4b25863aa94546daffbc0a18feaafb3",
+			"revisionTime": "2016-11-09T21:27:32Z"
+		},
+		{
+			"checksumSHA1": "BBN+OcVpSYnOYWdUq9A952+dCZA=",
+			"path": "golang.org/x/net/html/atom",
+			"revision": "9ef22118a4b25863aa94546daffbc0a18feaafb3",
+			"revisionTime": "2016-11-09T21:27:32Z"
+		},
+		{
+			"path": "https://github.com/docker/go-units",
+			"revision": "v0.3.1",
+			"version": "v0.3.1"
+		}
+	],
+	"rootPath": "github.com/lukin0110/push.kiwi"
+}
